@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function Img() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function Img() {
+  return <div></div>;
 }
-
-export default Img

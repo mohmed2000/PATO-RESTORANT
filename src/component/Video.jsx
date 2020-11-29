@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function Video() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function Video() {
+  return <div></div>;
 }
-
-export default Video

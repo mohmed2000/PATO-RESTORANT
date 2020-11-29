@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function Instgram() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function Instgram() {
+  return <div></div>;
 }
-
-export default Instgram

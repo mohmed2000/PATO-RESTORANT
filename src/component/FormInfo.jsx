@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function FormInfo() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function FormInfo() {
+  return <div></div>;
 }
-
-export default FormInfo

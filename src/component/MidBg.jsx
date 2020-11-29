@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function MidBg() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function MidBg() {
+  return <div></div>;
 }
-
-export default MidBg
