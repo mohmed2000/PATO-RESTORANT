@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function TopImg() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function TopImg() {
+  return <div></div>;
 }
-
-export default TopImg

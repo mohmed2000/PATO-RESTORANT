@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
-function SubEmail() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function SubEmail() {
+  return <div></div>;
 }
-
-export default SubEmail

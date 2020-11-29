@@ -1,11 +1,3 @@
-import React from 'react'
-
-function Slider() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default function Slider(props) {
+  return <div></div>;
 }
-
-export default Slider
