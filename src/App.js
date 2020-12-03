@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu";
 import Reservation from "./pages/Reservation";
 import About from "./pages/About";
@@ -11,7 +11,6 @@ import { Button } from "react-bootstrap";
 function App() {
   return (
     <div>
-      <Button>mohmed</Button>
       <Router>
         <Switch>
           <Route exact path="/">
