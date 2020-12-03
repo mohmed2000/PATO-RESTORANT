@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+.Mycontainer {
+    width: 90%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+ 
+ ##     ##          ######  ##       ######## ########  ######## ########  
+ ###   ###         ##    ## ##       ##       ##     ## ##       ##     ## 
+ #### ####         ##       ##       ##       ##     ## ##       ##     ## 
+ ## ### ##          ######  ##       ######   ##     ## ######   ########  
+ ##     ##               ## ##       ##       ##     ## ##       ##   ##   
+ ##     ##         ##    ## ##       ##       ##     ## ##       ##    ##  
+ ##     ## #######  ######  ######## ######## ########  ######## ##     ## 
+ 
+*/
 /* M_slider */
 #M_slider{
 position: relative;
@@ -55,14 +74,36 @@ bottom: 0;
 
 } */
 .slick-dots{
-    top: 85%;
+    top: 87%;
     bottom: 5px;
     
 }
 .slick-dots li button:before{
-    font-size: 15px;
-    color: #958e88;
+    color: transparent;
 }
+.slick-dots li button{
+    display: block;
+    color: transparent;
+    background-color: #958e88;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: all 0.4s;
+
+
+}
+.slick-dots li button:hover{
+    background-color: #d41b22;
+    border-radius: 50%;
+    padding: 0;
+    color: transparent;
+    border: 3px solid white;
+    width: 15px;
+    height: 15px;
+    z-index: 10;
+    }
 .slick-dots li.slick-active button:before{
 background-color: #d41b22;
 border-radius: 50%;
@@ -73,19 +114,92 @@ width: 15px;
 height: 15px;
 }
 
+
  .img-M_Slide{
     width: 100%;
     height: 100%;
 }
 
+/*
+ 
+    ###    ########   #######  ##     ## ########          ######  ########  ######  
+   ## ##   ##     ## ##     ## ##     ##    ##            ##    ## ##       ##    ## 
+  ##   ##  ##     ## ##     ## ##     ##    ##            ##       ##       ##       
+ ##     ## ########  ##     ## ##     ##    ##             ######  ######   ##       
+ ######### ##     ## ##     ## ##     ##    ##                  ## ##       ##       
+ ##     ## ##     ## ##     ## ##     ##    ##            ##    ## ##       ##    ## 
+ ##     ## ########   #######   #######     ##    #######  ######  ########  ######  
+ 
+*/
 
-/* #M_slider .M_Slide1{
-    
+/* 
+** title **
+*/
+.red-tit{
+    font-family: Courgette;
+    font-size: 30px;
+    color: #d61c22;
+    text-align: center;
 }
-#M_slider .M_Slide2{
-    
-}
-#M_slider .M_Slide3{
-    
-} */
+.black-tit{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-bottom: 25px;
 
+}
+.About-p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+    max-width: 490px;
+}
+.AboutContent{
+    position: relative;
+    top: 50px;
+}
+.AboutSec{
+    background-color: rgb(235, 235, 235);
+}
+.AboutSec2{
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    top: 120px;
+    padding-bottom: 100px;
+
+}
+.AboutImg{
+    max-width: 390px;
+    position: relative;
+    left: 100px;
+    overflow: hidden;
+    border-radius: 5%;
+
+
+}
+.HalfImg{
+    width: 100%;
+    border-radius: 5%;
+    transition: all 0.6s;
+
+}
+.HalfImg:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+
+}
+.Go-about{
+    color: #333;
+    position: relative;
+    left: 40%;
+}
+.Go-about:hover{
+    color: #d61c22;
+    text-decoration: none;
+}
