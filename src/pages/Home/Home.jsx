@@ -4,9 +4,9 @@ import MSlider from "../../component/MSlider";
 import AboutSec from "../../component/AboutSec";
 import Discover from "../../component/Discover";
 /* libraries */
+import { Container, Row, Col } from "react-bootstrap";
 
 /* images */
-import { Container, Row, Col } from "react-bootstrap";
 
 import "./style.css";
 
