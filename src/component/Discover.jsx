@@ -21,7 +21,7 @@ export default function Discover(props) {
         />
       </div>
       <div className="Discover-cards ">
-        <Container fluid="md">
+        <Container fluid="lg">
           <Row>
             <Col md={4}>
               <div className="Discover-card">

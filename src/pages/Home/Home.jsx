@@ -3,6 +3,8 @@ import { useHistory } from "react-router-dom";
 import MSlider from "../../component/MSlider";
 import AboutSec from "../../component/AboutSec";
 import Discover from "../../component/Discover";
+import DiscoverMenu from "../../component/DiscoverMenu";
+
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -19,6 +21,7 @@ export default function Home(props) {
       <MSlider />
       <AboutSec />
       <Discover />
+      <DiscoverMenu />
     </div>
   );
 }
