@@ -4,7 +4,7 @@ import MSlider from "../../component/MSlider";
 import AboutSec from "../../component/AboutSec";
 import Discover from "../../component/Discover";
 import DiscoverMenu from "../../component/DiscoverMenu";
-
+import ReservationSec from "../../component/ReservationSec";
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -22,6 +22,7 @@ export default function Home(props) {
       <AboutSec />
       <Discover />
       <DiscoverMenu />
+      <ReservationSec />
     </div>
   );
 }

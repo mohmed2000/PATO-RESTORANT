@@ -1,6 +1,6 @@
 /* component */
-import Button from "../component/Button";
 import Navbar from "../component/Navbar";
+
 /* libraries */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -60,8 +60,8 @@ export default function MSlider(props) {
               <Navbar />
               <span className="caption2">Welcome to</span>
               <h2 className="caption1">Pato Place</h2>
-              <Button btnText="Look Menu" />
-            </div>{" "}
+              <button className="M_SlideBtn">Look Menu</button>
+            </div>
           </div>
           <div className="sliderItem2">
             <img
@@ -73,7 +73,7 @@ export default function MSlider(props) {
               <Navbar />
               <span className="caption2">Welcome to</span>
               <h2 className="caption1">Pato Place</h2>
-              <Button btnText="Look Menu" />
+              <button className="M_SlideBtn">Look Menu</button>
             </div>{" "}
           </div>
           <div className="sliderItem3" id="sliderItem3">
@@ -86,8 +86,8 @@ export default function MSlider(props) {
               <Navbar />
               <span className="caption2">Welcome to</span>
               <h2 className="caption1">Pato Place</h2>
-              <Button btnText="Look Menu" />
-            </div>{" "}
+              <button className="M_SlideBtn">Look Menu</button>
+            </div>
           </div>
         </Slider>
       </div>
