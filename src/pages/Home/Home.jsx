@@ -10,6 +10,7 @@ import ReservationSec from "../../component/ReservationSec";
 import ReviewSlider from "../../component/ReviewSlider";
 import OurVideo from "../../component/OurVideo";
 import BlogSec from "../../component/BlogSec";
+import SubEmail from "../../component/SubEmail";
 
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
@@ -34,6 +35,7 @@ export default function Home(props) {
       <ReviewSlider />
       <OurVideo />
       <BlogSec />
+      <SubEmail />
     </div>
   );
 }
