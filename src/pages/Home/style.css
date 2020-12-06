@@ -396,6 +396,12 @@ padding: 120px 10px ;
     letter-spacing: 3px;
     overflow: hidden;
 }
+.email-tit{
+    font-size: 20px;
+    position: relative;
+
+
+}
 .card-tit:hover{
     color: #d61c22;
     transition: all 0.6s;
@@ -513,6 +519,21 @@ padding: 120px 10px ;
     font-size: 12px;
     top: 110%;
 }
+.emailbtn{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    line-height: 1.1;
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.945);
+}
+.emailbtn:hover{
+    background-color: #d61c22;
+
+}
 
 .Date-input{
     padding-top: 5px;
@@ -611,16 +632,14 @@ background-image: url(../../pato\ images/event/bg-event-01.jpg);
 ***********************************************
 **********************************************/
 
-
 .ReviewCard{
     padding: 30px 0 160px;
     text-align: center;
-
 }
 .ReviewDivImg{
-display: flex;
-margin-bottom: 30px;
-justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
 }
 .ReviewImg{
     width: 118px;
@@ -687,13 +706,32 @@ justify-content: center;
 }
 
 /* *************************************************************** */
+/* *****************************  BlogSec  ********************************** */
 /* *************************************************************** */
-/* *************************************************************** */
-
 .BlogSec{
 padding: 120px 0 0;
 }
-
 .blog-card{
     margin-top: 20px;
+}
+
+/* *************************************************************** */
+/* ******************************      ********************************* */
+/* **************************************************************** */
+
+.SubEmail{
+    background-image: url(../../pato\ images/pattern1.png);
+    background-repeat: repeat;
+    padding: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+}
+.EmailIcon{
+    position: absolute;
+    left: 60%;
+    transform: translate(-20px,10px);
 }
