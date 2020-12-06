@@ -98,32 +98,32 @@ button{
     visibility: hidden;
 }
 .ReviewSlide:hover .MySlick-next{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
 .ReviewSlide:hover .MySlick-prev{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
 .EventSlide:hover .MySlick-next{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
 .EventSlide:hover .MySlick-prev{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
 .M_slider:hover .MySlick-prev{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
 .M_slider:hover .MySlick-next{
-    opacity: 1;
+    opacity: 0.8;
     visibility: visible;
 
 }
@@ -605,9 +605,12 @@ background-image: url(../../pato\ images/event/bg-event-01.jpg);
     letter-spacing: 3px;
 }
 
+
 /**********************************************
 ***********************************************
 **********************************************/
+
+
 .ReviewCard{
     padding: 30px 0 160px;
     text-align: center;
@@ -628,3 +631,59 @@ justify-content: center;
 .fa{
     color: #ec1d25;
 }
+
+/*
+ 
+  #######  ##     ## ########     ##     ## #### ########  ########  #######  
+ ##     ## ##     ## ##     ##    ##     ##  ##  ##     ## ##       ##     ## 
+ ##     ## ##     ## ##     ##    ##     ##  ##  ##     ## ##       ##     ## 
+ ##     ## ##     ## ########     ##     ##  ##  ##     ## ######   ##     ## 
+ ##     ## ##     ## ##   ##       ##   ##   ##  ##     ## ##       ##     ## 
+ ##     ## ##     ## ##    ##       ## ##    ##  ##     ## ##       ##     ## 
+  #######   #######  ##     ##       ###    #### ########  ########  #######  
+ 
+*/
+
+.OurVideo{
+    background-image: url(../../pato\ images/bg-video.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+.videoInfo{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 230px;
+}
+.videoIconDiv{
+    position: relative;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%,50%);
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.videoIconDiv:hover{
+    background-color: #ec1d24a6;
+    color: white;
+    transform: scale(1.2);
+    left: 47.3%;
+    top: 1%;
+}
+.videoIcon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 40%;
+}
+
+
+
