@@ -7,6 +7,7 @@ import DiscoverMenu from "../../component/DiscoverMenu";
 import EventSlider from "../../component/EventSlider";
 import ReservationSec from "../../component/ReservationSec";
 import ReviewSlider from "../../component/ReviewSlider";
+import OurVideo from "../../component/OurVideo";
 
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
@@ -28,6 +29,7 @@ export default function Home(props) {
       <EventSlider />
       <ReservationSec />
       <ReviewSlider />
+      <OurVideo />
     </div>
   );
 }
