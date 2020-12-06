@@ -4,8 +4,10 @@ import MSlider from "../../component/MSlider";
 import AboutSec from "../../component/AboutSec";
 import Discover from "../../component/Discover";
 import DiscoverMenu from "../../component/DiscoverMenu";
-import OurSlider from "../../component/OurSlider";
+import EventSlider from "../../component/EventSlider";
 import ReservationSec from "../../component/ReservationSec";
+import ReviewSlider from "../../component/ReviewSlider";
+
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -23,8 +25,9 @@ export default function Home(props) {
       <AboutSec />
       <Discover />
       <DiscoverMenu />
-      <OurSlider />
+      <EventSlider />
       <ReservationSec />
+      <ReviewSlider />
     </div>
   );
 }

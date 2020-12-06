@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 /* images */
-import OurSlide1 from "../pato images/event/event-01.jpg";
-import OurSlide2 from "../pato images/event/event-02.jpg";
-import OurSlide3 from "../pato images/event/event-06.jpg";
+import EventSlide1 from "../pato images/event/event-01.jpg";
+import EventSlide2 from "../pato images/event/event-02.jpg";
+import EventSlide3 from "../pato images/event/event-06.jpg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -38,8 +38,8 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default function OurSlider(props) {
-  const {} = props;
+export default function EventSlider(props) {
+  const { className } = props;
   const settings = {
     dots: true,
     infinite: true,
@@ -60,10 +60,9 @@ export default function OurSlider(props) {
       <input className="MySlick-dots" type="button" value="" />
     ),
   };
-
   return (
     <div>
-      <div className="OurSlide" id="OurSlide">
+      <div className="EventSlide" id="EventSlide">
         <Slider {...settings}>
           <div className="sliderItem1 sliderItem">
             <Title
@@ -71,7 +70,7 @@ export default function OurSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={OurSlide2} />
+            <SlideCard src={EventSlide2} />
           </div>
           <div className="sliderItem2 sliderItem">
             <Title
@@ -79,7 +78,7 @@ export default function OurSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={OurSlide3} />
+            <SlideCard src={EventSlide3} />
           </div>
           <div className="sliderItem3 sliderItem">
             <Title
@@ -87,7 +86,7 @@ export default function OurSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={OurSlide1} />
+            <SlideCard src={EventSlide1} />
           </div>
         </Slider>
       </div>

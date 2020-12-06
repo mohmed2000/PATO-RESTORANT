@@ -97,12 +97,22 @@ button{
     opacity: 0;
     visibility: hidden;
 }
-.OurSlide:hover .MySlick-next{
+.ReviewSlide:hover .MySlick-next{
     opacity: 1;
     visibility: visible;
 
 }
-.OurSlide:hover .MySlick-prev{
+.ReviewSlide:hover .MySlick-prev{
+    opacity: 1;
+    visibility: visible;
+
+}
+.EventSlide:hover .MySlick-next{
+    opacity: 1;
+    visibility: visible;
+
+}
+.EventSlide:hover .MySlick-prev{
     opacity: 1;
     visibility: visible;
 
@@ -487,12 +497,6 @@ padding: 120px 10px ;
     padding-left: 20px;
 }
 
-.form-input-text{
-    /* padding: 10px 75px;
-    padding-left: 20px;
-    margin-bottom: 20px; */
-
-}
 .form-label{
     font-family: Montserrat;
     font-weight: 400;
@@ -601,4 +605,25 @@ background-image: url(../../pato\ images/event/bg-event-01.jpg);
     letter-spacing: 3px;
 }
 
-
+/**********************************************
+***********************************************
+**********************************************/
+.ReviewCard{
+    padding: 30px 0 160px;
+    text-align: center;
+}
+.ReviewDivImg{
+display: flex;
+margin-bottom: 30px;
+justify-content: center;
+}
+.ReviewImg{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ec1d25;
+}
+.fa{
+    color: #ec1d25;
+}
