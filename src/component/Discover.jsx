@@ -66,8 +66,8 @@ export default function Discover(props) {
                 </div>
                 <h4 className="card-tit my-4">RED WINES YOU LOVE</h4>
                 <p className="card-p">
-                  Sed ornare ligula eget tortor tempor, quis porta tellus
-                  dictum.
+                  Sed ornare quis posuere ligula eget tortor tempor, quis porta
+                  tellus dictum.
                 </p>
                 <Link to="/About" className="Go-about link-card">
                   LEARN MORE &nbsp;

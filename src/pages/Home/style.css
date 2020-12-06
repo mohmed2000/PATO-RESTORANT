@@ -49,18 +49,100 @@ bottom: 0;
 }
 
 .M_SlideBtn:hover{
+ event-sec_fix-reservation-sec
+    background-color: #d61c22;
+    transition: all 0.6s;
+    color: #fff;
+=======
     background-color: #d61c22!important;
     transition: all 0.6s!important;
     color: #fff!important;
+ main
 }
 .slick-arrow{
     right: 50px;
     z-index: 1;
+
+}
+.slick-prev:before, .slick-next:before {
+    color: transparent;
 }
 
 .slick-prev{
     left: 50px;
-    z-index: 1;
+}
+button{
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+.MySlick-next:hover{
+    background-color: #d61c22;
+}
+.MySlick-prev:hover{
+    background-color: #d61c22;
+}
+.MySlick-next{
+    top: 53%;
+    right: 50px;
+    left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.883);
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 200;
+    transition: all 0.2s;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+}
+.OurSlide:hover .MySlick-next{
+    opacity: 1;
+    visibility: visible;
+
+}
+.OurSlide:hover .MySlick-prev{
+    opacity: 1;
+    visibility: visible;
+
+}
+.M_slider:hover .MySlick-prev{
+    opacity: 1;
+    visibility: visible;
+
+}
+.M_slider:hover .MySlick-next{
+    opacity: 1;
+    visibility: visible;
+
+}
+.MySlick-prev{
+    top: 53%;
+    right: -20 px;
+    left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    background-color: black;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 200;
+    transition: all 0.4s;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
 }
 .M_content{
     position: absolute;
@@ -127,6 +209,7 @@ bottom: 0;
     height: 15px;
     z-index: 10;
     }
+
 .slick-dots li.slick-active button:before{
 background-color: #d41b22;
 border-radius: 50%;
@@ -136,6 +219,41 @@ border: 3px solid white;
 width: 15px;
 height: 15px;
 }
+/* ******** */
+.slick-dots li .MySlick-dots:before{
+    color: transparent;
+}
+.slick-dots li .MySlick-dots{
+    display: block;
+    color: transparent;
+    background-color: #958e88;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+
+
+}
+.slick-dots li .MySlick-dots:hover{
+    background-color: #d41b22;
+    border-radius: 50%;
+    padding: 0;
+    color: transparent;
+    z-index: 10;
+    }
+
+    .slick-dots li.slick-active .MySlick-dots{
+    background-color: #d41b22;
+    border-radius: 50%;
+    padding: 0;
+    color: transparent;
+    
+    }
+/* ********* */
  .img-M_Slide{
     width: 100%;
     height: 100%;
@@ -353,7 +471,16 @@ padding: 120px 10px ;
 .ReservationSec{
     background-image: url(../../pato\ images/pattern1.png);
     background-repeat: repeat;
+ event-sec_fix-reservation-sec
+    padding: 90px 0 170px;
+}
+.form-input:focus{
+    outline: none;
+    border: 2px solid #d61c22!important; ;
+    z-index: 10;
+=======
     padding: 80px 0;
+ main
 }
 .form-input{
     border-radius: 10px;
@@ -361,6 +488,18 @@ padding: 120px 10px ;
     font-weight: 400;
     font-size: 14px;
     color: #666666;
+ event-sec_fix-reservation-sec
+    border: 2px solid rgb(204, 204, 204);
+    width: 246px;
+    height: 46px;
+    padding-left: 20px;
+}
+
+.form-input-text{
+    /* padding: 10px 75px;
+    padding-left: 20px;
+    margin-bottom: 20px; */
+=======
     padding: 13px 75px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -379,6 +518,7 @@ padding: 120px 10px ;
 }
 .form-select2{
     padding-right: 130px;
+ main
 
 }
 .form-label{
@@ -387,6 +527,17 @@ padding: 120px 10px ;
     font-size: 15px;
     color: #555555;
 }
+ event-sec_fix-reservation-sec
+
+.Button{
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.945);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    top: 110%;
+}
+=======
 .Date-input{
     padding-top: 5px;
 }
@@ -394,6 +545,89 @@ padding: 120px 10px ;
 
 
 
+ main
 
+/*
+ 
+  ######  ##       #### ########  ######## ########  
+ ##    ## ##        ##  ##     ## ##       ##     ## 
+ ##       ##        ##  ##     ## ##       ##     ## 
+  ######  ##        ##  ##     ## ######   ########  
+       ## ##        ##  ##     ## ##       ##   ##   
+ ##    ## ##        ##  ##     ## ##       ##    ##  
+  ######  ######## #### ########  ######## ##     ## 
+ 
+*/
+
+.sliderItem{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+}
+.sliderItem1{
+background-image: url(../../pato\ images/event/bg-event-01.jpg);
+
+}
+.sliderItem2{
+    background-image: url(../../pato\ images/event/bg-event-02.jpg);
+
+}
+.sliderItem3{
+    background-image: url(../../pato\ images/event/bg-event-04.jpg);
+
+}
+.SlideCard{
+    border-radius: 10px!important;
+    overflow: hidden;
+    width: 1227px;
+    height: 380px;
+    position: relative;
+    margin: 20px 0 120px;
+    left: 3%;
+}
+.eventDivImg{
+    width: 110%;
+    height: 100%;
+}
+.eventImg{
+    width: 100%;
+    height: 380px;
+}
+.eventspan{
+    width: 390px;
+    height: 50px;
+    transform-origin: center center;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #d61c22dc;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    transform: translate(-50%, -50%) rotateZ(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eventDivInfo{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    padding: 80px 40px 15px ;
+}
+.eventTit{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 
 
