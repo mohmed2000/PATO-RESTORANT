@@ -1,5 +1,6 @@
 /* component */
 import Title from "./Title";
+import Button from "./Button";
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -24,7 +25,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
-                  className="form-input"
+                  className="form-input Date-input"
                   type="date"
                   name="Date"
                   id="Date"
@@ -36,7 +37,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
-                  className="form-input"
+                  className="form-input form-input-text"
                   type="text"
                   name="Name"
                   id="Name"
@@ -48,7 +49,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <select
-                  className="form-input form-select1"
+                  className="form-input form-select"
                   name="Time"
                   id="Time"
                 >
@@ -67,7 +68,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
-                  className="form-input"
+                  className="form-input form-input-text"
                   type="text"
                   name="Phone"
                   id="Phone"
@@ -79,7 +80,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <select
-                  className="form-input form-select2"
+                  className="form-input form-select"
                   name="People"
                   id="People"
                 >
@@ -98,13 +99,14 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
-                  className="form-input"
+                  className="form-input form-input-text"
                   type="text"
                   name="Email"
                   id="Email"
                 />
               </Col>
             </Row>
+            <Button btnText="BOOK TABLE" />
           </Col>
           <Col md={{ order: "last" }}>
             <div className="AboutImg mt-4 ">
