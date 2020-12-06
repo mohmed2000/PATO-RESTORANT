@@ -74,7 +74,7 @@ export default function ReviewSlider(props) {
               firstTit="REVIEW"
               className="black-tit"
             />
-            <ReviewCard src={ReviewSlide1} />
+            {/* <ReviewCard src={ReviewSlide1} /> */}
           </div>
           <div className="">
             <Title
@@ -82,7 +82,7 @@ export default function ReviewSlider(props) {
               firstTit="REVIEW"
               className="black-tit"
             />
-            <ReviewCard src={ReviewSlide2} />
+            {/* <ReviewCard src={ReviewSlide2} /> */}
           </div>
           <div className="">
             <Title
@@ -90,7 +90,7 @@ export default function ReviewSlider(props) {
               firstTit="REVIEW"
               className="black-tit"
             />
-            <ReviewCard src={ReviewSlide3} />
+            {/* <ReviewCard src={ReviewSlide3} /> */}
           </div>
         </Slider>
       </div>

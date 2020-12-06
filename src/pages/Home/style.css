@@ -130,7 +130,7 @@ button{
 .MySlick-prev{
     top: 53%;
     right: -20 px;
-    left: auto;
+    left: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,6 +611,7 @@ background-image: url(../../pato\ images/event/bg-event-01.jpg);
 .ReviewCard{
     padding: 30px 0 160px;
     text-align: center;
+
 }
 .ReviewDivImg{
 display: flex;
