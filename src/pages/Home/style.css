@@ -377,6 +377,7 @@ padding: 120px 10px ;
     border-radius: 5% 5% 0 0;
 
 }
+
 .card-img{
     transition: all 0.6s;
     overflow: hidden;
@@ -390,7 +391,7 @@ padding: 120px 10px ;
 
 .card-tit{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     color: #333333;
     letter-spacing: 3px;
     overflow: hidden;
@@ -685,5 +686,14 @@ justify-content: center;
     top: 40%;
 }
 
+/* *************************************************************** */
+/* *************************************************************** */
+/* *************************************************************** */
 
+.BlogSec{
+padding: 120px 0 0;
+}
 
+.blog-card{
+    margin-top: 20px;
+}
