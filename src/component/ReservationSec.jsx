@@ -1,9 +1,6 @@
 /* component */
 import Title from "./Title";
- event-sec_fix-reservation-sec
 import Button from "./Button";
-=======
- main
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -28,11 +25,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
- event-sec_fix-reservation-sec
                   className="form-input Date-input"
-=======
-                  className="form-input"
- main
                   type="date"
                   name="Date"
                   id="Date"
@@ -44,11 +37,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
- event-sec_fix-reservation-sec
                   className="form-input form-input-text"
-=======
-                  className="form-input"
- main
                   type="text"
                   name="Name"
                   id="Name"
@@ -60,11 +49,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <select
- event-sec_fix-reservation-sec
                   className="form-input form-select"
-=======
-                  className="form-input form-select1"
- main
                   name="Time"
                   id="Time"
                 >
@@ -83,11 +68,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
- event-sec_fix-reservation-sec
                   className="form-input form-input-text"
-=======
-                  className="form-input"
- main
                   type="text"
                   name="Phone"
                   id="Phone"
@@ -99,11 +80,7 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <select
- event-sec_fix-reservation-sec
                   className="form-input form-select"
-=======
-                  className="form-input form-select2"
- main
                   name="People"
                   id="People"
                 >
@@ -122,21 +99,14 @@ export default function ReservationSec() {
                 </label>
                 <br />
                 <input
- event-sec_fix-reservation-sec
                   className="form-input form-input-text"
-=======
-                  className="form-input"
- main
                   type="text"
                   name="Email"
                   id="Email"
                 />
               </Col>
             </Row>
- event-sec_fix-reservation-sec
             <Button btnText="BOOK TABLE" />
-=======
- main
           </Col>
           <Col md={{ order: "last" }}>
             <div className="AboutImg mt-4 ">

@@ -49,15 +49,9 @@ bottom: 0;
 }
 
 .M_SlideBtn:hover{
- event-sec_fix-reservation-sec
     background-color: #d61c22;
     transition: all 0.6s;
     color: #fff;
-=======
-    background-color: #d61c22!important;
-    transition: all 0.6s!important;
-    color: #fff!important;
- main
 }
 .slick-arrow{
     right: 50px;
@@ -471,16 +465,15 @@ padding: 120px 10px ;
 .ReservationSec{
     background-image: url(../../pato\ images/pattern1.png);
     background-repeat: repeat;
- event-sec_fix-reservation-sec
     padding: 90px 0 170px;
 }
 .form-input:focus{
     outline: none;
     border: 2px solid #d61c22!important; ;
     z-index: 10;
-=======
+/* =======
     padding: 80px 0;
- main
+ main */
 }
 .form-input{
     border-radius: 10px;
@@ -488,7 +481,6 @@ padding: 120px 10px ;
     font-weight: 400;
     font-size: 14px;
     color: #666666;
- event-sec_fix-reservation-sec
     border: 2px solid rgb(204, 204, 204);
     width: 246px;
     height: 46px;
@@ -499,26 +491,6 @@ padding: 120px 10px ;
     /* padding: 10px 75px;
     padding-left: 20px;
     margin-bottom: 20px; */
-=======
-    padding: 13px 75px;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    border: 2px solid rgb(204, 204, 204);
-}
-.form-input:focus{
-    outline: none;
-    border: 2px solid #d61c22!important; ;
-    z-index: 10;
-}
-
-
-.form-select1{
-    padding-right: 155px;
-
-}
-.form-select2{
-    padding-right: 130px;
- main
 
 }
 .form-label{
@@ -527,7 +499,6 @@ padding: 120px 10px ;
     font-size: 15px;
     color: #555555;
 }
- event-sec_fix-reservation-sec
 
 .Button{
     color: #fff;
@@ -537,7 +508,7 @@ padding: 120px 10px ;
     font-size: 12px;
     top: 110%;
 }
-=======
+
 .Date-input{
     padding-top: 5px;
 }
@@ -545,7 +516,7 @@ padding: 120px 10px ;
 
 
 
- main
+ 
 
 /*
  

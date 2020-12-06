@@ -81,11 +81,7 @@ export default function OurSlider(props) {
               <span className="caption2">Welcome to</span>
               <h2 className="caption1">Pato Place</h2>
               <button className="M_SlideBtn">Look Menu</button>
- event-sec_fix-reservation-sec
             </div>
-=======
-            </div>{" "}
- main
           </div>
           <div className="">
             <img
