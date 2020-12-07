@@ -24,6 +24,7 @@ export default function Discover(props) {
                 to="/"
                 linkCard="CONTINUE READING"
               />
+              <button className="blogbtn">21 Dec 2020</button>
             </Col>
             <Col md={4}>
               <DiscoverCard
@@ -34,6 +35,7 @@ export default function Discover(props) {
                 to="/"
                 linkCard="CONTINUE READING"
               />
+              <button className="blogbtn">01 Dec 2020</button>
             </Col>
             <Col md={4}>
               <DiscoverCard
@@ -44,6 +46,7 @@ export default function Discover(props) {
                 to="/Home"
                 linkCard="CONTINUE READING"
               />
+              <button className="blogbtn">11 Nov 2020</button>
             </Col>
           </Row>
         </Container>
