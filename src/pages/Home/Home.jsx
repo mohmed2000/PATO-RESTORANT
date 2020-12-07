@@ -11,6 +11,7 @@ import ReviewSlider from "../../component/ReviewSlider";
 import OurVideo from "../../component/OurVideo";
 import BlogSec from "../../component/BlogSec";
 import SubEmail from "../../component/SubEmail";
+import Footer from "../../component/Footer";
 
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
@@ -36,6 +37,7 @@ export default function Home(props) {
       <OurVideo />
       <BlogSec />
       <SubEmail />
+      <Footer />
     </div>
   );
 }
