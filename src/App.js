@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu";
 import Reservation from "./pages/Reservation";
+import Instagram from "./pages/Instagram";
+import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 /* libraries */
@@ -21,8 +23,14 @@ function App() {
           <Route exact path="/Reservation">
             <Reservation />
           </Route>
+          <Route exact path="/Instagram">
+            <Instagram />
+          </Route>
           <Route exact path="/About">
             <About />
+          </Route>
+          <Route exact path="/Blog">
+            <Blog />
           </Route>
           <Route exact path="/contact">
             <Contact />

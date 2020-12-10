@@ -97,13 +97,19 @@ export default function Footer() {
             <Col md={12}>
               <div className="setIcon">
                 <span className="icon  ml-3">
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <a href="https://www.instagram.com/">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
                 </span>
                 <span className="icon  ml-3">
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <a href="https://www.facebook.com/">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
                 </span>
                 <span className="icon  ml-3">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <a href="https://www.twitter.com/">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
                 </span>
               </div>
               <div className="marka">
