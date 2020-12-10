@@ -1,5 +1,6 @@
 /* component */
 import Navbar from "../component/Navbar";
+import { Link } from "react-router-dom";
 
 /* libraries */
 import Slider from "react-slick";
