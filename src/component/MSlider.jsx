@@ -1,6 +1,5 @@
 /* component */
 import Navbar from "../component/Navbar";
-import { Link } from "react-router-dom";
 
 /* libraries */
 import Slider from "react-slick";
@@ -13,6 +12,7 @@ import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import M_Slide1 from "../pato images/main-slider/slide1.jpg";
 import M_Slide2 from "../pato images/main-slider/slide2.jpg";
 import M_Slide3 from "../pato images/main-slider/slide3.jpg";
+import Navside from "./Navside";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -41,7 +41,6 @@ function SamplePrevArrow(props) {
 }
 
 export default function OurSlider(props) {
-  const {} = props;
   const settings = {
     dots: true,
     infinite: true,
@@ -54,9 +53,11 @@ export default function OurSlider(props) {
     nextArrow: <SampleNextArrow className="MySlick-next" />,
     prevArrow: <SamplePrevArrow className="MySlick-prev" />,
   };
+
   return (
     <div>
       <div className="M_slider" id="M_slider">
+        <Navside />
         <Slider {...settings}>
           <div className=" ">
             <img

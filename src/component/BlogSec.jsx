@@ -21,7 +21,7 @@ export default function Discover(props) {
                 src={Card1}
                 cardTit="BEST PLACES FOR WINE"
                 cardP="Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros."
-                to="/"
+                to="/Blog"
                 linkCard="CONTINUE READING"
               />
               <button className="blogbtn">21 Dec 2020</button>
@@ -32,7 +32,7 @@ export default function Discover(props) {
                 src={Card2}
                 cardTit="EGGS AND CHEESE"
                 cardP="Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna"
-                to="/"
+                to="/Blog"
                 linkCard="CONTINUE READING"
               />
               <button className="blogbtn">01 Dec 2020</button>
@@ -43,7 +43,7 @@ export default function Discover(props) {
                 src={Card3}
                 cardTit="STYLE THE WEDDING PARTY"
                 cardP="Sed ornare ligula eget tortor tempor, quis porta tellus dictum."
-                to="/Home"
+                to="/Blog"
                 linkCard="CONTINUE READING"
               />
               <button className="blogbtn">11 Nov 2020</button>
