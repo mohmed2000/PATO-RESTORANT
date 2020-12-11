@@ -11,16 +11,6 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 export default function Navbar() {
-  // function openNav() {
-  //   document.getElementById("mySidenav").style.width = "250px";
-  //   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-  // }
-
-  // function closeNav() {
-  //   document.getElementById("mySidenav").style.width = "";
-  //   document.body.style.backgroundColor = "white";
-  // }
-
   return (
     <div className="headernav">
       <div className="wrap-menu">
@@ -31,7 +21,7 @@ export default function Navbar() {
                 <div className=" h-50">
                   <img src={Logo} alt="" />
                 </div>
-                <ul className="navUl h-100 ">
+                <ul className="navUl  h-100 ">
                   <li className="navLi">
                     <Link to="/">Home</Link>
                   </li>
@@ -70,7 +60,6 @@ export default function Navbar() {
                       <FontAwesomeIcon icon={faTwitter} />
                     </a>
                   </span>
-                  <button className="nav3-" onclick={"openNav()"}></button>
                 </div>
               </nav>
             </Col>

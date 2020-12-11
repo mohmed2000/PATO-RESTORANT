@@ -16,7 +16,7 @@ import Instagram from "../pato images/gallery/Instagram";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <div>
       <div className="footer">
@@ -85,8 +85,8 @@ export default function Footer() {
               </div>
             </Col>
             <Col md={4}>
-              <h4 className="footerTit ">INSTAGRAM</h4>
-              <Instagram />
+              <h4 className="footerTit ml-3">INSTAGRAM</h4>
+              <Instagram className="img" />
             </Col>
           </Row>
         </Container>
