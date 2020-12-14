@@ -7,18 +7,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-.BodyBlur{
-
-}
 .Navside{
+    top: 0;
     position: fixed;
-    z-index: 1200;
+    z-index: 1000;
     width: 390px;
     height: 100%;
     overflow: auto;
     text-align: center;
     background-color: #fff;
-    top: 0;
     right: -390px;
     transition: all 0.4s
 
@@ -34,6 +31,7 @@
 }
 .navSideUl{
     margin: 95px 95px 25px;
+    list-style-type: none;
 }
 .navSideTit{
     font-size: 18px;
@@ -95,19 +93,82 @@ width: 100%;
 left: 0px;
 bottom: 0;
 }
+.M_slide1{
+    background-image: url(../../pato\ images/main-slider/slide1.jpg);
+    width: 1002px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.M_slide2{
+    background-image: url(../../pato\ images/main-slider/slide2.jpg);
+    width: 1002px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.M_slide3{
+    background-image: url(../../pato\ images/main-slider/slide3.jpg);
+    width: 1002px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dadWrap-menu{
+position: fixed;
+}
+.slick-slide:not(.slick-active) {
+    pointer-events: none;
+}
 .wrap-menu{
     position: absolute;
     width: 100%;
-    height: 120px;
-    top: -10px;
+    height: 110px;
+    top: -8px;
     left: 0;
+    z-index: 900;
+}
+.navBg{
+    background-color: rgb(255, 255, 255);
+    border-top: 5px solid #d41b22;
+    position: fixed;
+}
+.navBg ul .navLi a {
+    color: #222;
+}
+.navBg .iconNava  a{
+    color: #222;
+
+}
+.nav3-scroll{
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
 }
 .myNav{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
+
 
 }
 .navUl{
@@ -119,7 +180,7 @@ bottom: 0;
     margin-top: 10px;
 }
 .navLi{
-    color: #fff;
+    color: rgb(34, 28, 28);
     padding: 10px 5px;
     margin: 10px 0;
 
@@ -151,7 +212,7 @@ a:hover{
     z-index: 1000;
     position: absolute;
     right: 8%;
-    top: 8%;
+    top: 5%;
     cursor:pointer;
     width: 26px;
     height: 15px;
@@ -164,7 +225,7 @@ a:hover{
         display: none;
     }
     .nav3-{
-        top: 5%;
+        top: 3%;
     }
   }
   @media screen and (max-width: 1100px) {
@@ -179,7 +240,7 @@ a:hover{
   }
   @media screen and (max-width: 1280px) {
     .nav3-{
-        right: 0;
+        right: 8px;
     }
   }
 
@@ -652,8 +713,8 @@ padding: 120px 10px ;
     font-size: 14px;
     color: #666666;
     border: 2px solid rgb(204, 204, 204);
-    width: 246px;
-    height: 46px;
+    min-width: 246px;
+    min-height: 46px;
     padding-left: 20px;
 }
 
@@ -664,7 +725,25 @@ padding: 120px 10px ;
     color: #555555;
 }
 
-
+.ReservationBtn{
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.945);
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 330px;
+    margin-top: 25px;
+}
+.ReservationBtn:hover{
+    color: #fff;
+    background-color: #d41b22;
+    transition: all 0.4s;
+}
 .Button{
     color: #fff;
     background-color: rgba(1, 1, 1, 0.945);

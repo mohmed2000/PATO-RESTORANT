@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu";
-import Reservation from "./pages/Reservation";
+import Reservation from "./pages/Reservation/Reservation";
 import Instagram from "./pages/Instagram";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
