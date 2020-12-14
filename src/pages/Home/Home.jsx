@@ -1,4 +1,3 @@
-import { useHistory } from "react-router-dom";
 /* component */
 import MSlider from "../../component/MSlider";
 import AboutSec from "../../component/AboutSec";
@@ -17,13 +16,11 @@ import Footer from "../../component/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 
 /* images */
+import HalfImg from "../../pato images/booking-01.jpg";
 
-import "./style.css";
+import "./Home.css";
 
 export default function Home(props) {
-  const {} = props;
-  const history = useHistory();
-
   return (
     <div>
       <MSlider />
@@ -32,7 +29,7 @@ export default function Home(props) {
       <Discover />
       <DiscoverMenu />
       <EventSlider />
-      <ReservationSec />
+      <ReservationSec hgzimgclass="HalfImg " hgzImg={HalfImg} />
       <ReviewSlider />
       <OurVideo />
       <BlogSec />
