@@ -1,0 +1,100 @@
+.mapDad{
+    background-image: url(../../pato\ images/pattern1.png);
+    background-repeat: repeat;
+    padding: 70px 20px;
+}
+.mapDiv{
+
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+}
+.ContactForm{
+    background-image: url(../../pato\ images/pattern1.png);
+    background-repeat: repeat;
+}
+.contactTit{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 40px 0 52px;
+    text-align: center;
+}
+.ContactRow{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.form-input{
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    border: 2px solid #d9d9d9;
+    min-width: 246px;
+    min-height: 46px;
+    padding-left: 20px;
+}
+.mytextarea{
+    width: 100%;
+    min-height: 180px;
+    padding-top: 15px;
+}
+.contactBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #111111;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+    margin: 20px 0 70px;
+    position: relative;
+    left: 44%;
+}
+.contactBtn:hover{
+    background-color: #ec1d25;
+}
+.ContactRow2{
+    padding: 70px 5px;
+}
+.locationDiv{
+    display: flex;
+    justify-content: center;
+}
+.locationIcon{
+    margin: -2px 40px;
+    font-size: 20px;
+}
+.ContactTit{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.locationP{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.7;
+    max-width: 160px;
+}

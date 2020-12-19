@@ -46,7 +46,6 @@ export default function Reservation() {
           </Container>
         </div>
       </div>
-
       <Footer />
     </div>
   );
