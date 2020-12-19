@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <div className="">
-      <div className={`${navBg === true ? "navBg wrap-menu" : "wrap-menu"}`}>
+      <div className={navBg === true ? "navBg wrap-menu" : "wrap-menu"}>
         <Container fluid="xl">
           <Row>
             <Col md={12}>
@@ -52,13 +52,13 @@ export default function Navbar() {
                     <Link to="/Reservation">Reservation</Link>
                   </li>
                   <li className="navLi ">
-                    <Link to="/About">Instagram</Link>
+                    <Link to="/Instagram">Instagram</Link>
                   </li>
                   <li className="navLi ">
                     <Link to="/About">About</Link>
                   </li>
                   <li className="navLi ">
-                    <Link to="/About">Blog</Link>
+                    <Link to="/Blog">Blog</Link>
                   </li>
                   <li className="navLi ">
                     <Link to="/Contact">Contact</Link>

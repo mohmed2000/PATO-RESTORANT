@@ -4,7 +4,6 @@ import Navbar from "../../component/Navbar";
 import Navside from "../../component/Navside";
 import ReservationInfo from "../../component/ReservationInfo";
 import ReservationImg from "../../pato images/gallery/photo-gallery-03.jpg";
-import Button from "../../component/Button";
 import "../Reservation/Reservation.css";
 import { Col, Container, Row } from "react-bootstrap";
 

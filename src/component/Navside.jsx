@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWindowClose } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import InstagramSideNav from "../pato images/gallery/InstgramSideNav";
 
 export default function Navside(props) {
@@ -16,18 +16,18 @@ export default function Navside(props) {
 
   return (
     <>
-      <button className="nav3-" onClick={() => handleShow()}></button>
-      <aside
-        className={`${show === true ? "navsideShow Navside " : "Navside"}`}
-      >
+      <div className="btn3">
+        <button className="nav3-" onClick={() => handleShow()}></button>
+      </div>
+      <aside className={show === true ? "navsideShow Navside " : "Navside"}>
         <button
           onClick={() => handleClose()}
-          className={`${
+          className={
             show === false ? "Navside navSideCloseBtn" : "navSideCloseBtn"
-          }`}
+          }
         >
           <i className="navSideBtn">
-            <FontAwesomeIcon icon={faWindowClose} />
+            <FontAwesomeIcon icon={faTimes} />
           </i>
         </button>
         <ul className="navSideUl ">
@@ -38,13 +38,13 @@ export default function Navside(props) {
             <Link to="/Menu">Menu</Link>
           </li>
           <li className="navLi">
-            <Link to="/About">Instagram</Link>
+            <Link to="/Instagram">Instagram</Link>
           </li>
           <li className="navLi">
             <Link to="/About">About</Link>
           </li>
           <li className="navLi">
-            <Link to="/About">Blog</Link>
+            <Link to="/Blog">Blog</Link>
           </li>
           <li className="navLi">
             <Link to="/Contact">Contact</Link>
