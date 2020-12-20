@@ -528,6 +528,10 @@ height: 15px;
     padding-bottom: 250px;
 
 }
+.SecAbout{
+    position: relative;
+    top: 40px!important;
+}
 .AboutSec2{
     background-color: rgb(235, 235, 235);
     position: relative;
