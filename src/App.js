@@ -4,7 +4,7 @@ import Menu from "./pages/Menu/Menu";
 import Reservation from "./pages/Reservation/Reservation";
 import Instagram from "./pages/Instagram/Instagram";
 import Blog from "./pages/Blog";
-import About from "./pages/About";
+import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 /* libraries */
 import "bootstrap/dist/css/bootstrap.min.css";
