@@ -114,10 +114,10 @@ export default function Footer(props) {
               </div>
               <div className="marka">
                 <span className="text-white">
-                  made with{" "}
+                  made with
                   <i className="love text-danger">
                     <FontAwesomeIcon icon={faHeart} />
-                  </i>{" "}
+                  </i>
                   by mohamed awad
                 </span>
               </div>

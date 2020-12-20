@@ -13,11 +13,11 @@ export default function ReservationSec(props) {
     <div className="ReservationSec">
       <Container fluid="lg">
         <Row>
-          <Col>
+          <Col lg={6}>
             <ReservationInfo />
             <Button btnText="BOOK TABLE" />
           </Col>
-          <Col>
+          <Col lg={6}>
             <div className="AboutImg mt-4 ">
               <img className={hgzimgclass} src={hgzImg} alt="HalfImg" />
             </div>
