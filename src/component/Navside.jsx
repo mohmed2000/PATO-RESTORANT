@@ -50,7 +50,11 @@ export default function Navside(props) {
             <Link to="/Contact">Contact</Link>
           </li>
         </ul>
-        <button className="sideBtn ">Reservation</button>
+        <button className="sideBtn ">
+          <Link className="sideBtn bg-transparent" to="/Reservation">
+            Reservation
+          </Link>
+        </button>
         <h4 className="mb-5 navSideTit ">INSTAGRAM</h4>
         <div className="containerImg">
           <InstagramSideNav className="imgSideNav " />
