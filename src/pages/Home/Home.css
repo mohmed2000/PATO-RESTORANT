@@ -733,7 +733,12 @@ padding: 120px 10px ;
  ##     ## ########  ######  ######## ##     ##    ###    ##     ##    ##    ####  #######  ##    ## 
  
 */
-
+/* validation */
+.Required{
+    /* color: #d41b22; */
+    width: 150px;
+    height: 30px;
+}
 .ReservationSec{
     background-image: url(../../pato\ images/pattern1.png);
     background-repeat: repeat;

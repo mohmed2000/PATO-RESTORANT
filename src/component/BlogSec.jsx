@@ -15,7 +15,7 @@ export default function Discover(props) {
       <div className="Discover-cards">
         <Container fluid="lg">
           <Row>
-            <Col md={4}>
+            <Col>
               <DiscoverCard
                 className="Discover-card blog-card"
                 src={Card1}
@@ -26,7 +26,7 @@ export default function Discover(props) {
               />
               <button className="blogbtn">21 Dec 2020</button>
             </Col>
-            <Col md={4}>
+            <Col>
               <DiscoverCard
                 className="Discover-card blog-card"
                 src={Card2}
@@ -37,7 +37,7 @@ export default function Discover(props) {
               />
               <button className="blogbtn">01 Dec 2020</button>
             </Col>
-            <Col md={4}>
+            <Col>
               <DiscoverCard
                 className="Discover-card blog-card"
                 src={Card3}
