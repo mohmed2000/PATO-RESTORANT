@@ -13,7 +13,7 @@ import img11 from "./photo-gallery-11.jpg";
 export default function InstagramSideNav(props) {
   const { className } = props;
   return (
-    <div>
+    <div className="w-75 m-auto">
       <Container fluid="lg">
         <Row>
           <Col md={4}>

@@ -5,5 +5,27 @@
   color: cadetblue;
   font-family: Courgette;
   font-size: 30px
-  
+}
+.linkNav{
+  text-align: center;
+  position: absolute;
+  top: 97%;
+  left: 5%;
+  line-height: 1.2;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  padding: 40px 0;
+
+}
+.link {
+  color: #222;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.link:hover{
+  color: #222;
+  text-decoration: none;
 }

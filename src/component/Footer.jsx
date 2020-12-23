@@ -115,7 +115,7 @@ export default function Footer(props) {
               <div className="marka">
                 <span className="text-white">
                   made with
-                  <i className="love text-danger">
+                  <i className="love text-danger mx-2">
                     <FontAwesomeIcon icon={faHeart} />
                   </i>
                   by mohamed awad

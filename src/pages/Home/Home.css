@@ -224,7 +224,7 @@ a:hover{
     background-color: transparent;
     border-top: 2px solid rgb(246, 22, 22);
     border-bottom: 2px solid rgb(246, 22, 22);
-    margin: 10px 0 0 45px;
+    margin: 12px 60px 0 45px;
     border-radius: 0!important;
 }
 .btn3{
@@ -254,14 +254,9 @@ a:hover{
         margin-left: 0px;
     }
   }
-  @media screen and (max-width: 1320px) {
+  @media screen and (max-width: 1295px) {
     .nav3-{
-        right: 10px;
-    }
-  }
-  @media screen and (max-width: 1320px) {
-    .nav3-{
-        right: 10px;
+        margin-left: 100px;
     }
   }
   @media screen and (max-width: 650px) {
@@ -632,6 +627,7 @@ padding: 120px 10px ;
     margin: 100px 5px;
     overflow: hidden;
     border-radius: 5% 5% 0 0;
+    width: 100%;
 
 }
 
