@@ -1,5 +1,7 @@
+import { useEffect, useRef } from "react";
 /* component */
 import Navbar from "../component/Navbar";
+import Navside from "./Navside";
 
 /* libraries */
 import Slider from "react-slick";
@@ -7,12 +9,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import WOW from "wow.js";
 
 /* images */
 import M_Slide1 from "../pato images/main-slider/slide1.jpg";
 import M_Slide2 from "../pato images/main-slider/slide2.jpg";
 import M_Slide3 from "../pato images/main-slider/slide3.jpg";
-import Navside from "./Navside";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -41,6 +43,11 @@ function SamplePrevArrow(props) {
 }
 
 export default function OurSlider(props) {
+  const next = useRef("");
+  useEffect(() => {
+    new WOW().init();
+    next.current = <SampleNextArrow />;
+  }, [<SampleNextArrow />]);
   const settings = {
     dots: true,
     infinite: true,
@@ -62,22 +69,28 @@ export default function OurSlider(props) {
         <Slider {...settings}>
           <div className="M_slide M_slide1">
             <div className="M_content ">
-              <span className="caption2">Welcome to</span>
-              <h2 className="caption1">Pato Place</h2>
+              <span className="caption2 wow zoomInDown">Welcome to</span>
+              <h2 className="caption1 wow rotateInUpLeft" data-wow-delay="0.8s">
+                Pato Place
+              </h2>
               <button className="M_SlideBtn">Look Menu</button>
             </div>
           </div>
           <div className="M_slide M_slide2">
             <div className="M_content">
-              <span className="caption2">Welcome to</span>
-              <h2 className="caption1">Pato Place</h2>
+              <span className="caption2 wow zoomInDown">Welcome to</span>
+              <h2 className="caption1 wow rotateInUpLeft" data-wow-delay="0.8s">
+                Pato Place
+              </h2>
               <button className="M_SlideBtn">Look Menu</button>
             </div>
           </div>
           <div className="M_slide M_slide3">
             <div className="M_content">
-              <span className="caption2">Welcome to</span>
-              <h2 className="caption1">Pato Place</h2>
+              <span className="caption2 wow zoomInDown">Welcome to</span>
+              <h2 className="caption1 wow rotateInUpLeft" data-wow-delay="0.8s">
+                Pato Place
+              </h2>
               <button className="M_SlideBtn">Look Menu</button>
             </div>
           </div>

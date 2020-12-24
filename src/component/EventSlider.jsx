@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import WOW from "wow.js";
 /* images */
 import EventSlide1 from "../pato images/event/event-01.jpg";
 import EventSlide2 from "../pato images/event/event-02.jpg";
@@ -39,6 +40,7 @@ function SamplePrevArrow(props) {
 }
 
 export default function EventSlider(props) {
+
   const { className } = props;
   const settings = {
     dots: true,

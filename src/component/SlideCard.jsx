@@ -1,13 +1,19 @@
+import { useEffect } from "react";
+
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import WOW from "wow.js";
 export default function SlideCard(props) {
+  useEffect(() => {
+    new WOW().init();
+  }, []);
   const { src } = props;
   return (
     <>
-      <div className="SlideCard">
+      <div className="SlideCard wow fadeInDown">
         <Container fluid="lg">
           <Row>
             <Col md={6}>
