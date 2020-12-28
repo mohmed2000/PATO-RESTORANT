@@ -11,7 +11,7 @@ export default function Instagram() {
     <div>
       <Navside />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="Instagram" />
       <Tabs />
       <SubEmail />
       <Footer />

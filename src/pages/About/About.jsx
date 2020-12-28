@@ -16,7 +16,7 @@ export default function About() {
     <div>
       <Navside />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="About" />
       <Story />
       <OurVideo />
       <AboutSec />

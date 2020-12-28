@@ -12,7 +12,7 @@ export default function Reservation() {
     <div>
       <Navside />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="Reservation" />
       <div className="ReservationInfo ">
         <div className="myContainer">
           <ReservationInfo />

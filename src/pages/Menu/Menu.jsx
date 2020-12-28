@@ -7,14 +7,13 @@ import "../Menu/Menu.css";
 import MainMenu from "../../component/MainMenu";
 import LunchSec from "../../component/LunchSec";
 import DinnerSec from "../../component/DinnerSec";
+import PageHeader from "../../component/PageHeader";
 export default function Menu() {
   return (
     <div>
       <Navside />
       <Navbar />
-      <div className="MenuImg">
-        <h2 className="ReservationTit">Pato Menu</h2>
-      </div>
+      <PageHeader title="Menu" />
       <MainMenu />
       <LunchSec />
       <DinnerSec />

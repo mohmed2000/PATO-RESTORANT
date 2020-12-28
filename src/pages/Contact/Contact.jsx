@@ -12,7 +12,7 @@ export default function Contact() {
     <div>
       <Navside />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="Contact" />
       <MapContainer />
       <ContactForm />
       <Footer />

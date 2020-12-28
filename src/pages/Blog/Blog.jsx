@@ -12,7 +12,7 @@ export default function Blog() {
     <div>
       <Navside />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="Blog" />
       <BlogSec />
       <SubEmail />
       <Footer />
