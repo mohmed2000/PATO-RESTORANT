@@ -1,4 +1,5 @@
-export default function PageHeader(title) {
+export default function PageHeader(props) {
+  const { title } = props;
   return (
     <div className="ReservationImg ">
       <div className="layer0">
