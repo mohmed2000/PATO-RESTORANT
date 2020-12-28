@@ -14,7 +14,7 @@ import ReviewSlide2 from "../pato images/avatar/avatar-04.jpg";
 import ReviewSlide3 from "../pato images/avatar/avatar-05.jpg";
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { style, onClick } = props;
   return (
     <div className="" style={{ ...style }} onClick={onClick}>
       <button className="MySlick-next">
@@ -27,7 +27,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { style, onClick } = props;
   return (
     <div className="" style={{ ...style }} onClick={onClick}>
       <button className="MySlick-prev">
@@ -40,7 +40,6 @@ function SamplePrevArrow(props) {
 }
 
 export default function ReviewSlider(props) {
-  const { className } = props;
   const settings = {
     dots: true,
     infinite: true,

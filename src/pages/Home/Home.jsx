@@ -12,9 +12,6 @@ import BlogSec from "../../component/BlogSec";
 import SubEmail from "../../component/SubEmail";
 import Footer from "../../component/Footer";
 
-/* libraries */
-import { Container, Row, Col } from "react-bootstrap";
-
 /* images */
 import HalfImg from "../../pato images/booking-01.jpg";
 

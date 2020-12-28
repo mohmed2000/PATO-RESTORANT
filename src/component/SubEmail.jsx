@@ -2,7 +2,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import Button from "./Button";
 import { Container, Row, Col } from "react-bootstrap";
 export default function SubEmail() {
   return (

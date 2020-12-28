@@ -8,7 +8,6 @@ import Card3 from "../pato images/blog/blog-03.jpg";
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 export default function Discover(props) {
-  const {} = props;
   return (
     <div className="BlogSec">
       <Title secTit="Latest News" firstTit="THE BLOG" className="black-tit" />

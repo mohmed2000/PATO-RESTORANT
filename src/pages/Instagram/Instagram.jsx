@@ -5,16 +5,13 @@ import SubEmail from "../../component/SubEmail";
 import Footer from "../../component/Footer";
 import Tabs from "../../component/Tabs";
 import "./Instagram.css";
+import PageHeader from "../../component/PageHeader";
 export default function Instagram() {
   return (
     <div>
       <Navside />
       <Navbar />
-      <div className="ReservationImg ">
-        <div className="layer0">
-          <h2 className="ReservationTit">Instgram</h2>
-        </div>
-      </div>
+      <PageHeader />
       <Tabs />
       <SubEmail />
       <Footer />

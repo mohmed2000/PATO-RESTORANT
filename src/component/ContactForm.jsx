@@ -74,7 +74,7 @@ export default function ContactForm() {
     }
   }
   function handleEmail(e) {
-    const EmailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    const EmailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
     const EmailRegexValue = EmailRegex.test(e.target.value);
     if (EmailRegexValue) {

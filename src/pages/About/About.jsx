@@ -9,17 +9,14 @@ import OurVideo from "../../component/OurVideo";
 import AboutSec from "../../component/AboutSec";
 import SecAbout from "../../component/SecAbout";
 import OurChef from "../../component/OurChef";
+import PageHeader from "../../component/PageHeader";
 
 export default function About() {
   return (
     <div>
       <Navside />
       <Navbar />
-      <div className="ReservationImg ">
-        <div className="layer0">
-          <h2 className="ReservationTit">About</h2>
-        </div>
-      </div>
+      <PageHeader />
       <Story />
       <OurVideo />
       <AboutSec />

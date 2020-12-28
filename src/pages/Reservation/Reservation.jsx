@@ -3,20 +3,16 @@ import Footer from "../../component/Footer";
 import Navbar from "../../component/Navbar";
 import Navside from "../../component/Navside";
 import ReservationInfo from "../../component/ReservationInfo";
-import ReservationImg from "../../pato images/gallery/photo-gallery-03.jpg";
 import "../Reservation/Reservation.css";
 import { Col, Container, Row } from "react-bootstrap";
+import PageHeader from "../../component/PageHeader";
 
 export default function Reservation() {
   return (
     <div>
       <Navside />
       <Navbar />
-      <div className="ReservationImg ">
-        <div className="layer0">
-          <h2 className="ReservationTit">Reservation</h2>
-        </div>
-      </div>
+      <PageHeader />
       <div className="ReservationInfo ">
         <div className="myContainer">
           <ReservationInfo />

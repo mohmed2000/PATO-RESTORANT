@@ -7,7 +7,6 @@ import Card3 from "../pato images/intro/intro-04.jpg";
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 export default function Discover(props) {
-  const {} = props;
   return (
     <div>
       <div className="Discover-cards ">

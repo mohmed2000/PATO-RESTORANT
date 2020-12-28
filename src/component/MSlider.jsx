@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 /* component */
 import Navbar from "../component/Navbar";
 import Navside from "./Navside";
@@ -10,11 +10,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import WOW from "wow.js";
-
-/* images */
-import M_Slide1 from "../pato images/main-slider/slide1.jpg";
-import M_Slide2 from "../pato images/main-slider/slide2.jpg";
-import M_Slide3 from "../pato images/main-slider/slide3.jpg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -43,11 +38,9 @@ function SamplePrevArrow(props) {
 }
 
 export default function OurSlider(props) {
-  const next = useRef("");
   useEffect(() => {
     new WOW().init();
-    next.current = <SampleNextArrow />;
-  }, [<SampleNextArrow />]);
+  }, []);
   const settings = {
     dots: true,
     infinite: true,
