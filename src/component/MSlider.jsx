@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 /* component */
 import Navbar from "../component/Navbar";
 import Navside from "./Navside";
