@@ -24,7 +24,7 @@ export default function Navbar() {
     };
   }, []);
   const handleNavBg = () => {
-    if (window.scrollY > 10) {
+    if (window.scrollY >= 10) {
       setNavBg(true);
     } else {
       setNavBg(false);

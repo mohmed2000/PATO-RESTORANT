@@ -118,7 +118,7 @@ export default function Footer(props) {
                   <i className="love text-danger mx-2">
                     <FontAwesomeIcon icon={faHeart} />
                   </i>
-                  by mohamed awad
+                  by mohamed awad 2021&copy;
                 </span>
               </div>
             </Col>

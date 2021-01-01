@@ -12,11 +12,17 @@ export default function OurVideo() {
             firstTit="Our Video"
             className="text-white black-tit"
           />
-          <div className="videoIconDiv">
-            <i className="videoIcon">
-              <FontAwesomeIcon icon={faPlay} />
-            </i>
-          </div>
+          <a
+            href="https://youtu.be/5k1hSu2gdKE"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="videoIconDiv">
+              <i className="videoIcon">
+                <FontAwesomeIcon icon={faPlay} />
+              </i>
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -10,8 +10,12 @@ import AboutSec from "../../component/AboutSec";
 import SecAbout from "../../component/SecAbout";
 import OurChef from "../../component/OurChef";
 import PageHeader from "../../component/PageHeader";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    document.title = "About";
+  }, []);
   return (
     <div>
       <Navside />

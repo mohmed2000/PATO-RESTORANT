@@ -9,7 +9,7 @@ export default function OurChef() {
       <Title className="black-tit" secTit="Meet Our" firstTit="CHEF" />
       <Container fluid="lg">
         <Row>
-          <Col>
+          <Col md={4}>
             <div className="chef">
               <div className="chefimgDiv">
                 <img className="chefImg" src={chef1} alt="chef1" />
@@ -24,7 +24,7 @@ export default function OurChef() {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col md={4}>
             <div className="chef">
               <div className="chefimgDiv">
                 <img className="chefImg" src={chef2} alt="chef1" />
@@ -39,7 +39,7 @@ export default function OurChef() {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col md={4}>
             <div className="chef">
               <div className="chefimgDiv">
                 <img className="chefImg" src={chef3} alt="chef1" />

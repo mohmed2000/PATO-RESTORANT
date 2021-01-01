@@ -6,6 +6,11 @@
     z-index: 100;
     position: absolute;
 }
+.hgzImgDiv{
+    position: relative;
+    margin-left: -2%;
+    padding-top: 40px;
+}
 .ReservationImg{
     background-image: url(../../pato\ images/gallery/photo-gallery-03.jpg);
     min-height: 545px;
@@ -15,13 +20,17 @@
     background-size: cover;
     position: relative;
 }
+@media screen and (max-width: 964px){
+    .ReservationContainer{display: none;}
+
+}
 .ReservationTit{
     text-align: center;
     position: absolute;
     top: 52%;
-    left: 44%;
+    left: 32%;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.2;
     color: #fff;
     text-transform: uppercase;
@@ -41,10 +50,11 @@
 }
 .ReservationParaTit{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-left: 10px;
 }
 .ReservationParaP{
     font-family: Montserrat;
@@ -56,4 +66,19 @@
 }
 .ReservationSpan{
     color: #d41b22;
+}
+.ReservationBtn{
+    color: #fff;
+    background-color: rgba(1, 1, 1, 0.945);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 38%;
+    margin-top: 25px;
+}
+.ReservationBtn:hover{
+    color: #fff;
+    background-color: #d41b22;
+    transition: all 0.4s;
 }

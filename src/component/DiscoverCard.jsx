@@ -10,6 +10,7 @@ export default function DiscoverCard(props) {
       <div className={className}>
         <div className="card-img">
           <img className="img-fluid HalfImg " src={src} alt="Card1" />
+          <button className="blogbtn">21 Dec 2020</button>
         </div>
         <h4 className="card-tit my-4">{cardTit}</h4>
         <p className="card-p">{cardP}</p>

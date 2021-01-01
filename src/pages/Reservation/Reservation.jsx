@@ -6,8 +6,12 @@ import ReservationInfo from "../../component/ReservationInfo";
 import "../Reservation/Reservation.css";
 import { Col, Container, Row } from "react-bootstrap";
 import PageHeader from "../../component/PageHeader";
+import { useEffect } from "react";
 
 export default function Reservation() {
+  useEffect(() => {
+    document.title = "Reservation";
+  }, []);
   return (
     <div>
       <Navside />
@@ -16,12 +20,14 @@ export default function Reservation() {
       <div className="ReservationInfo ">
         <div className="myContainer">
           <ReservationInfo />
-          <button className="ReservationBtn">BOOK TABLE</button>
+          <button className="ReservationBtn" type="submit">
+            BOOK TABLE
+          </button>
         </div>
         <div className="ReservationPara">
           <Container fluid="lg">
             <Row>
-              <Col md={6}>
+              <Col className="ReservationContainer" md={6}>
                 <h4 className="ReservationParaTit">RESERVE BY PHONE</h4>
                 <p className="ReservationParaP">
                   Donec quis euismod purus. Donec feugiat ligula rhoncus, varius
@@ -31,7 +37,7 @@ export default function Reservation() {
                 </p>
               </Col>
               <Col md={6}>
-                <h4 className="ReservationParaTit">FOR EVENT BOOKING</h4>
+                <h5 className="ReservationParaTit">FOR EVENT BOOKING</h5>
                 <p className="ReservationParaP">
                   Donec feugiat ligula rhoncus:
                   <span className="ReservationSpan">(001) 345 6889 </span> ,

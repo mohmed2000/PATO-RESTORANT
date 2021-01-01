@@ -1,9 +1,9 @@
 import React from "react";
-import HalfImg from "../pato images/our-story-01.jpg";
-export default function AboutImg() {
+export default function AboutImg(props) {
+  const { src } = props;
   return (
     <div className="AboutImg">
-      <img className="HalfImg" src={HalfImg} alt="HalfImg" />
+      <img className="HalfImg" src={src} alt="HalfImg" />
     </div>
   );
 }

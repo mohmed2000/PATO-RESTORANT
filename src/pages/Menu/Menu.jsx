@@ -8,7 +8,11 @@ import MainMenu from "../../component/MainMenu";
 import LunchSec from "../../component/LunchSec";
 import DinnerSec from "../../component/DinnerSec";
 import PageHeader from "../../component/PageHeader";
+import { useEffect } from "react";
 export default function Menu() {
+  useEffect(() => {
+    document.title = "Menu";
+  }, []);
   return (
     <div>
       <Navside />

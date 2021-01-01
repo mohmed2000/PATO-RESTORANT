@@ -6,7 +6,11 @@ import Footer from "../../component/Footer";
 import Tabs from "../../component/Tabs";
 import "./Instagram.css";
 import PageHeader from "../../component/PageHeader";
+import { useEffect } from "react";
 export default function Instagram() {
+  useEffect(() => {
+    document.title = "Instagram";
+  }, []);
   return (
     <div>
       <Navside />

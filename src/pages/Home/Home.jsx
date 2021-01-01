@@ -16,8 +16,13 @@ import Footer from "../../component/Footer";
 import HalfImg from "../../pato images/booking-01.jpg";
 
 import "./Home.css";
+import Up from "../../component/Up";
+import { useEffect } from "react";
 
 export default function Home(props) {
+  useEffect(() => {
+    document.title = "Home";
+  }, []);
   return (
     <div>
       <MSlider />
@@ -30,6 +35,7 @@ export default function Home(props) {
       <ReviewSlider />
       <OurVideo />
       <BlogSec />
+      <Up />
       <SubEmail />
       <Footer />
     </div>

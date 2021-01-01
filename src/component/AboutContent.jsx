@@ -6,7 +6,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 /* component */
 export default function AboutContent(props) {
   return (
-    <div className="AboutContent wow slideInLeft">
+    <div className="AboutContent wow zoomInDown">
       <p className="About-p">
         Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed
         fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac

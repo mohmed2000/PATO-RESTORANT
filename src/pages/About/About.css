@@ -9,15 +9,16 @@
     font-size: 15px;
     line-height: 1.7;
     color: #666666;
-    margin: 10px;
+    margin: 10px ;
+    margin-left: 40px;
     max-width: 868px;
     text-align: center;
 }
 .OurChef{
     padding: 115px 0 115px;
 }
-.chef{
-    /* position: relative; */
+.titDiv{
+    margin-top: 80px;
 }
 .chefimgDiv{
     width: 110px;
@@ -26,7 +27,7 @@
     overflow: hidden;
     border: 4px solid rgb(240, 11, 11);
     position: relative;
-    left: 120px;
+    left: 145px;
     top: 50px;
 }
 .chefImg{

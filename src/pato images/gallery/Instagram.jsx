@@ -19,73 +19,73 @@ export default function Instagram(props) {
     <div className="instagramSec">
       <Container fluid="lg">
         <Row>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img1} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img2} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img3} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img4} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img5} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img6} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img7} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img8} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img9} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img10} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img11} alt="imgfooter" />
               <div className="layer"></div>
             </div>
           </Col>
-          <Col xs={3}>
+          <Col className="imgCol" xs={3}>
             <div className={className}>
               <img src={img12} alt="imgfooter" />
               <div className="layer"></div>

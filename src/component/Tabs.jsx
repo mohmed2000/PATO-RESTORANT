@@ -43,21 +43,31 @@ export default function Tabs() {
   return (
     <div className="TabsSec">
       <div className="Tabs">
-        <button className="tab" onClick={allPhoto}>
-          all photo
-        </button>
-        <button className="tab" onClick={blog}>
-          blog
-        </button>
-        <button className="tab" onClick={food}>
-          food
-        </button>
-        <button className="tab" onClick={event}>
-          event
-        </button>
-        <button className="tab" onClick={vipGuests}>
-          vip guests
-        </button>
+        <div className="tabDiv">
+          <button className="tab" onClick={allPhoto}>
+            all photo
+          </button>
+        </div>
+        <div className="tabDiv">
+          <button className="tab" onClick={blog}>
+            blog
+          </button>
+        </div>
+        <div className="tabDiv">
+          <button className="tab" onClick={food}>
+            food
+          </button>
+        </div>
+        <div className="tabDiv">
+          <button className="tab" onClick={event}>
+            event
+          </button>
+        </div>
+        <div className="tabDiv">
+          <button className="tab" onClick={vipGuests}>
+            vip guests
+          </button>
+        </div>
       </div>
       <Container fluid>
         <div className="tabsImg TabContainer">
@@ -70,7 +80,7 @@ export default function Tabs() {
                   ? " hide"
                   : Tabs === 4
                   ? " hide"
-                  : ""
+                  : "tabCol"
               }
               md={4}
             >
@@ -95,7 +105,7 @@ export default function Tabs() {
                   ? "hide"
                   : Tabs === 4
                   ? "hide"
-                  : ""
+                  : "tabCol"
               }
               md={4}
             >
@@ -111,7 +121,7 @@ export default function Tabs() {
               </div>
             </Col>
             <Col
-              className={Tabs === 3 ? " hide" : Tabs === 4 ? " hide" : ""}
+              className={Tabs === 3 ? " hide" : Tabs === 4 ? " hide" : "tabCol"}
               md={4}
             >
               <div className="img1Div">
@@ -133,7 +143,7 @@ export default function Tabs() {
                   ? " hide"
                   : Tabs === 4
                   ? " hide"
-                  : ""
+                  : "tabCol"
               }
               md={4}
             >
@@ -149,7 +159,7 @@ export default function Tabs() {
               </div>
             </Col>
             <Col
-              className={Tabs === 1 ? " hide" : Tabs === 2 ? "hide" : ""}
+              className={Tabs === 1 ? " hide" : Tabs === 2 ? "hide" : "tabCol"}
               md={4}
             >
               <div className="img1Div">
@@ -164,7 +174,7 @@ export default function Tabs() {
               </div>
             </Col>
             <Col
-              className={Tabs === 1 ? " hide" : Tabs === 2 ? "hide" : ""}
+              className={Tabs === 1 ? " hide" : Tabs === 2 ? "hide" : "tabCol"}
               md={4}
             >
               <div className="img1Div">
@@ -186,7 +196,7 @@ export default function Tabs() {
                   ? "hide"
                   : Tabs === 4
                   ? "hide"
-                  : ""
+                  : "tabCol"
               }
               md={4}
             >
@@ -202,7 +212,7 @@ export default function Tabs() {
               </div>
             </Col>
             <Col
-              className={Tabs === 3 ? " hide" : Tabs === 4 ? " hide" : ""}
+              className={Tabs === 3 ? " hide" : Tabs === 4 ? " hide" : "tabCol"}
               md={4}
             >
               <div className="img1Div">
@@ -224,7 +234,7 @@ export default function Tabs() {
                   ? " hide"
                   : Tabs === 4
                   ? " hide"
-                  : ""
+                  : "tabCol"
               }
               md={4}
             >

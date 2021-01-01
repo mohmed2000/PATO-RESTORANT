@@ -4,6 +4,8 @@ import AboutContent from "../component/AboutContent";
 import AboutImg from "../component/AboutImg";
 import Title from "../component/Title";
 
+import HalfImg from "../pato images/our-story-01.jpg";
+
 /* libraries */
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -22,7 +24,7 @@ export default function AboutSec() {
               <AboutContent />
             </Col>
             <Col md={6}>
-              <AboutImg />
+              <AboutImg src={HalfImg} />
             </Col>
           </Row>
         </Container>

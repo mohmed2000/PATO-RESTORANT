@@ -69,7 +69,9 @@ export default function EventSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={EventSlide2} />
+            <div className="eventSlid1">
+              <SlideCard src={EventSlide2} />
+            </div>
           </div>
           <div className="sliderItem2 sliderItem">
             <Title
@@ -77,7 +79,9 @@ export default function EventSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={EventSlide3} />
+            <div className="eventSlid1">
+              <SlideCard src={EventSlide3} />
+            </div>
           </div>
           <div className="sliderItem3 sliderItem">
             <Title
@@ -85,7 +89,9 @@ export default function EventSlider(props) {
               firstTit="Events"
               className="black-tit text-white"
             />
-            <SlideCard src={EventSlide1} />
+            <div className="eventSlid1">
+              <SlideCard src={EventSlide1} />
+            </div>{" "}
           </div>
         </Slider>
       </div>

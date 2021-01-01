@@ -215,8 +215,6 @@ a:hover{
     text-decoration: none;
 }
 .nav3-{
-    z-index: 1000;
-    /* position: absolute; */
     position: fixed;
     cursor:pointer;
     width: 26px;
@@ -224,7 +222,7 @@ a:hover{
     background-color: transparent;
     border-top: 2px solid rgb(246, 22, 22);
     border-bottom: 2px solid rgb(246, 22, 22);
-    margin: 12px 60px 0 45px;
+    margin: 12px 0px 0 45px;
     border-radius: 0!important;
 }
 .btn3{
@@ -233,12 +231,20 @@ a:hover{
     right: 12%;
     top: 5.55%;
 }
+@media screen and (max-width: 1295px) {
+    .nav3-{
+        margin-left: 0px;
+        right: 0;
+    }
+  }
 @media screen and (max-width: 992px) {
     .navUl{
         display: none;
     }
     .nav3-{
         top: 2.5%;
+        right: 0;
+
     }
     .wrap-menu{
         height: 80px!important;
@@ -254,14 +260,11 @@ a:hover{
         margin-left: 0px;
     }
   }
-  @media screen and (max-width: 1295px) {
-    .nav3-{
-        margin-left: 100px;
-    }
-  }
+
   @media screen and (max-width: 650px) {
     .M_SlideBtn{
         margin-left: -20px;
+        margin-top: 20px;
     }
   }
 .M_SlideBtn{
@@ -781,20 +784,6 @@ padding: 120px 10px ;
     color: #555555;
 }
 
-.ReservationBtn{
-    color: #fff;
-    background-color: rgba(1, 1, 1, 0.945);
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    margin-left: 330px;
-    margin-top: 25px;
-}
-.ReservationBtn:hover{
-    color: #fff;
-    background-color: #d41b22;
-    transition: all 0.4s;
-}
 .Button{
     color: #fff;
     background-color: rgba(1, 1, 1, 0.945);
@@ -837,41 +826,52 @@ background-image: url(../../pato\ images/event/bg-event-01.jpg);
 .sliderItem3{
     background-image: url(../../pato\ images/event/bg-event-04.jpg);
 }
+.eventSlid1{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
 .SlideCard{
     border-radius: 10px!important;
-    overflow: hidden;
-    width: 1227px;
-    height: 380px;
-    position: relative;
-    margin: 20px 0 120px;
-    left: 3%;
+    margin: 20px 120px 90px ;
+    padding-right: 200px;
 }
 .eventDivImg{
-    width: 110%;
-    height: 100%;
+    width: 100%;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
 }
 .eventImg{
     width: 100%;
-    height: 380px;
+    height: 100%;
+}
+@media screen and (min-width: 993px){
+    .eventspan{
+    transform: translate(-46%, 350%) rotateZ(90deg);
+    width: 100%;
+    top: 50%;
+    left: 25px;
+    height: 50px;
+    }
 }
 .eventspan{
-    width: 390px;
     height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
     transform-origin: center center;
     position: absolute;
-    top: 50%;
-    left: 7%;
     color: rgba(255, 255, 255, 0.87);
     background-color: #d61c22dc;
     font-family: Montserrat;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 1px;
-
-    transform: translate(-50%, -50%) rotateZ(90deg);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5000;
 }
 .eventDivInfo{
     width: 100%;
@@ -975,13 +975,16 @@ padding: 120px 0 0;
     margin-top: 20px;
     position: relative;
 }
+.card-img{
+    position: relative;
+}
 .blogbtn{
     background-color: rgba(0, 0, 0, 0.486);
     color: #fff;
     padding: 0 10px ;
     position: absolute;
-    top: 38%;
-    left: 10%;
+    bottom: 15px;
+    left: 15px;
 }
 
 /* *************************************************************** */
@@ -998,26 +1001,58 @@ padding: 120px 0 0;
 
 }
 .Email{
-    width: 70%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 670px){
+    .tab{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 705px){
+    .subEmailTit{
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
+    .subEmailInputDiv{
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;  
+    }
+    .subBtn{
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;  
+    }
+
+}
+
+.subEmailTit{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 10px;
+
+
+}
+.subEmailInputDiv{
+    margin: 10px;
+    position: relative;
 }
 .EmailIcon{
     position: absolute;
-    left: -28%;
+    right: 5px;
     transform: translate(-20px,10px);
     color: #5d5d5d;
 }
-emailTit{
-    font-weight: 400;
-    font-size: 18px;
-    color: #c80d0de3;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 100px!important;
-    position: absolute;
-    left: 50%;
-}
+.subBtn{
+    margin: 10px;
 
+}
 /*
  ########  #######   #######  ######## ######## ########  
  ##       ##     ## ##     ##    ##    ##       ##     ## 
@@ -1057,15 +1092,17 @@ padding-left: 10px;
     width: 100%;
     height: 100%;
 }
-@media screen and (max-width: 970px) {
+
+/* @media screen and (max-width: 970px) {
     .img{
         width: 65px!important;
         height: 65px!important;
     }
-  }
+  } */
 .img{
     width: 80px;
     height: 80px;
+    padding: 0;
     margin-bottom: 14px;
     position: relative;
     /* overflow: hidden; */

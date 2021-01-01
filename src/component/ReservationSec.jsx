@@ -16,7 +16,7 @@ export default function ReservationSec(props) {
           <Col lg={6}>
             <ReservationInfo />
             <button
-              className="Button M_SlideBtn"
+              className="Button M_SlideBtn "
               type="submit"
               // onSubmit={handleSubmit}
             >
@@ -24,7 +24,7 @@ export default function ReservationSec(props) {
             </button>
           </Col>
           <Col lg={6}>
-            <div className="AboutImg mt-4 ">
+            <div className="AboutImg mt-4  hgzImgDiv">
               <img className={hgzimgclass} src={hgzImg} alt="HalfImg" />
             </div>
           </Col>

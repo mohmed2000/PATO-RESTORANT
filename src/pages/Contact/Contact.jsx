@@ -6,8 +6,12 @@ import "./Contact.css";
 import MapContainer from "../../component/Mapcontainer";
 import ContactForm from "../../component/ContactForm";
 import PageHeader from "../../component/PageHeader";
+import { useEffect } from "react";
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = "Contact";
+  }, []);
   return (
     <div>
       <Navside />
