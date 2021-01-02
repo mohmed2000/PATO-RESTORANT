@@ -12,9 +12,9 @@ export default function SlideCard(props) {
   }, []);
   const { src } = props;
   return (
-    <Container fluid="xl" className="SlideCard wow fadeInDown mr-l">
+    <Container fluid="lg" className="SlideCard wow fadeInDown mr-l">
       <Row>
-        <Col lg={6} className="p-0">
+        <Col md={6} className="p-0">
           <div className="eventDivImg">
             <img className="eventImg" src={src} alt="OurSlide" />
             <span className="eventspan">
@@ -22,7 +22,7 @@ export default function SlideCard(props) {
             </span>
           </div>
         </Col>
-        <Col lg={6} className="p-0">
+        <Col md={6} className="p-0">
           <div className="eventDivInfo">
             <h4 className="eventTit">Wines during specific nights</h4>
             <p className="card-p ">
